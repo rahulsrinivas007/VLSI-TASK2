@@ -51,13 +51,13 @@ The task focuses on learning Verilog HDL and RTL design concepts by implementing
 # Logic Gates Implementation
 
 ## Verilog Code
-![Logic Gates Output](SCREENSHOTS/ALL_IN_ONE.jpg)
+![Logic Gates Output](ALL_IN_ONE.jpg)
 
 ## TestBench Code
-![Logic Gates Output](SCREENSHOTS/ALL_IN_ONE_TB.jpg)
+![Logic Gates Output](ALL_IN_ONE_TB.jpg)
 
 ## Simulation Output Waveform
-![Logic Gates Output](SCREENSHOTS/ALL_IN_ONE_G.jpg)
+![Logic Gates Output](ALL_IN_ONE_G.jpg)
 
 ---
 
