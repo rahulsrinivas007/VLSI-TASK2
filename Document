@@ -1,0 +1,133 @@
+# VLSI Design Internship – Task 2 Documentation
+
+## Introduction
+
+This project was completed as part of the VLSI Design Internship program. The task focuses on understanding Verilog HDL and RTL design concepts by implementing basic combinational circuits and verifying them using simulation tools.
+
+---
+
+# Objective
+
+* Learn Verilog HDL fundamentals
+* Understand RTL design concepts
+* Implement combinational circuits using Verilog
+* Write testbenches for verification
+* Perform simulation and waveform analysis
+
+---
+
+# Tools Used
+
+* Verilog HDL
+* EDA Playground
+* Icarus Verilog
+* GTKWave
+
+---
+
+# Logic Gates Implementation
+
+## Description
+
+Implemented basic digital logic gates using Verilog HDL.
+
+### Gates Implemented
+
+* AND Gate
+* OR Gate
+* NOT Gate
+* NAND Gate
+* NOR Gate
+* XOR Gate
+
+## Output Waveform
+
+![Logic Gates Output](screenshots/logic_gates_waveform.png)
+
+---
+
+# Half Adder Design
+
+## Description
+
+Half Adder is a combinational circuit used to add two single-bit binary numbers.
+
+## Truth Table
+
+| A | B | Sum | Carry |
+| - | - | --- | ----- |
+| 0 | 0 | 0   | 0     |
+| 0 | 1 | 1   | 0     |
+| 1 | 0 | 1   | 0     |
+| 1 | 1 | 0   | 1     |
+
+## Verilog Logic
+
+* Sum = A XOR B
+* Carry = A AND B
+
+## Simulation Output
+
+![Half Adder Waveform](screenshots/half_adder_waveform.png)
+
+---
+
+# Full Adder Design
+
+## Description
+
+Full Adder is a combinational circuit that adds three binary inputs including carry input.
+
+## Truth Table
+
+| A | B | Cin | Sum | Cout |
+| - | - | --- | --- | ---- |
+| 0 | 0 | 0   | 0   | 0    |
+| 0 | 0 | 1   | 1   | 0    |
+| 0 | 1 | 0   | 1   | 0    |
+| 0 | 1 | 1   | 0   | 1    |
+| 1 | 0 | 0   | 1   | 0    |
+| 1 | 0 | 1   | 0   | 1    |
+| 1 | 1 | 0   | 0   | 1    |
+| 1 | 1 | 1   | 1   | 1    |
+
+## Verilog Logic
+
+* Sum = A XOR B XOR Cin
+* Cout = AB + BCin + ACin
+
+## Simulation Output
+
+![Full Adder Waveform](screenshots/full_adder_waveform.png)
+
+---
+
+# Simulation Procedure
+
+1. Wrote Verilog HDL code for all circuits
+2. Created testbench modules
+3. Simulated designs using Icarus Verilog
+4. Generated waveform outputs
+5. Verified outputs using GTKWave
+
+---
+
+# Learning Outcomes
+
+* Understood Verilog HDL syntax and module structure
+* Learned RTL design methodology
+* Implemented combinational circuits
+* Performed simulation and debugging
+* Analyzed waveform outputs effectively
+
+---
+
+# Conclusion
+
+This task provided practical exposure to RTL design and Verilog HDL coding. The project improved understanding of combinational circuit design, testbench development, and simulation flow used in VLSI design.
+
+---
+
+# Author
+
+Nagireddy Manoj Sai Krishna
